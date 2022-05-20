@@ -1,0 +1,116 @@
+.main-container {
+    padding: 1rem;
+    background-color: #1f2630;
+    width: 95%;
+    max-width: 300px;
+    border-radius: 1rem;
+}
+
+.main-star {
+    background-color: #252d36;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.main-question {
+    color: #f8fafa;
+}
+
+.main-answer {
+    color: #656b77;
+    font-size: .7rem;
+    line-height: 20px;
+}
+
+.main-submit {
+    padding-top: 1.5rem;
+}
+
+.main-submit button {
+    width: 100%;
+    border-radius: 1rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: #fc7613;
+    border: 1px solid #fc7613;
+    color: #fefefe;
+    transition: .3s ease-in-out;
+}
+
+.main-submit button:hover {
+    background-color: #fefefe;
+    border: 1px solid #fefefe;
+    color: #fc7613;
+    transition: .3s ease-in-out;
+}
+
+.main-ratings {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-ratings a {
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262e37;
+    border: 1px solid #262e37;
+    color: #5a636c;
+    transition: .3s ease-in-out;
+}
+
+.main-ratings a:hover {
+    background-color: #7b8698;
+    border: 1px solid #7b8698;
+    color: #e4e9ed;
+    transition: .3s ease-in-out;
+}
+
+.main-ratings a.active {
+    color: #fefefe;
+    background-color: #f87616;
+    border: 1px solid #f87616;
+    transition: .3s ease-in-out;
+}
+
+.main-image {
+    padding-top: .5rem;
+}
+
+.main-selected,
+.main-image,
+.main-selected p,
+.main-title,
+.main-desc {
+    text-align: center;
+}
+
+.main-selected p {
+    width: 200px;
+    margin-inline: auto;
+    background-color: #262d37;
+    border-radius: 1rem;
+    color: #886043;
+    font-size: .8rem;
+    padding: .5rem 0;
+}
+
+.main-title {
+    color: #fefefe;
+    font-size: 1.2rem;
+}
+
+.main-desc {
+    color: #7b8698;
+    font-size: .8rem;
+}
